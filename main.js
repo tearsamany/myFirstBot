@@ -5,7 +5,6 @@ bot.start((ctx) => ctx.reply('Welcome'))
 bot.help((ctx) => ctx.reply('Send me a sticker'))
 bot.on('sticker', (ctx) => ctx.reply('گوااااات'))
 bot.hears('hi', (ctx) => ctx.reply('Hey there'))
-bot.listen(process.env.PORT || 5000)
 bot.launch()
 
 // Enable graceful stop
